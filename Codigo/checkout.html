@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
+<head>
+	<meta charset="utf-8" />
+	<title>Babynel</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+	<link rel="stylesheet" href="styles/skeleton.css" />
+    <link rel="stylesheet" href="styles/style.css" />
+    <link rel="stylesheet" href="styles/inner.css" />
+    <link rel="stylesheet" href="styles/color.css" />
+	<link rel="stylesheet" href="styles/layout.css" />
+	<link href='http://fonts.googleapis.com/css?family=Droid+Sans:400,700' rel='stylesheet' type='text/css'>
+	<!--[if lt IE 9]>
+		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+    <link id="layoutcss" href="styles/fixed-layout.css" rel="stylesheet" type="text/css" />
+	<link rel="shortcut icon" href="images/favicon.ico" />
+	<link rel="apple-touch-icon" href="images/apple-touch-icon.png" />
+	<link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png" />
+	<link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png" />
+</head>
+
+<body>
+<div id="bodychild">
+	<div id="outercontainer">
+    
+        <!-- HEADER -->
+        <div id="outerheader">
+        	<div class="container">
+			<header id="top" class="twelve columns">
+            	<div id="logo"  class="three columns alpha"><a href="index.html"><img src="images/logo.png" alt=""></a></div>
+                <div id="headerright" class="six columns omega">
+					<div id="chart">
+                    	<a href="#" id="shop-bag"></a>
+                        <ul class="shop-box">
+                        	<li>
+                                <img src="images/content/product/small.jpg" alt="" class="alignright imgborder" />
+                                <h2>Overall de Oso</h2>
+                                <div class="price">1 x S/. 120</div>
+                            </li>
+							<li>
+                                <img src="images/content/product/small2.jpg" alt="" class="alignright imgborder" />
+                                <h2>Conjunto Paloma Rosada</h2>
+                                <div class="price">1 x S/. 140</div>
+                            </li>
+                            <li>
+                                <div class="total">Subtotal: S/. 260</div>
+                                <a href="cart.html" class="button">Ver Carrito</a>
+								<a href="checkout.html" class="button">Comprar</a>
+                                <div class="clear"></div>
+                            </li>
+                        </ul>
+                    	
+                    	<h6>Carrito de Compra</h6>
+                        <p>Usted tiene 2 items en el carrito de compras</p>
+                    </div>
+					<ul id="user-nav">
+                    	<li><a href="account.html">Mi Cuenta</a></li>
+                        <li><a href="login.html">Mi Lista</a></li>
+                        <li><a href="cart.html">Mi Carrito</a></li>
+                        <li class="current"><a href="checkout.html">Comprar</a></li>
+                        <li><a href="login.html">Login</a></li>
+                    </ul>
+                </div>
+
+                <section id="navigation" class="twelve columns">
+                    <nav id="nav-wrap">
+                        <ul id="topnav" class="sf-menu">
+                            <li><a href="index.html">Inicio</a></li>
+							<li><a href="products.html">Productos</a>
+                            	<ul>
+                                	<li><a href="products.html">Pijamas</a></li>
+                                    <li><a href="products.html">Polos</a></li>
+                                    <li><a href="products.html">Overall</a></li>
+                                    <li><a href="products.html">Ni&ntilde;os</a></li>
+                                    <li><a href="products.html">Ni&ntilde;as</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="about.html">Nosotros</a></li>
+                            <li><a href="contact.html">Contacto</a></li>
+                        </ul><!-- topnav -->
+                    </nav><!-- nav -->	
+                    
+                    <form method="get" id="searchform" action="#">
+                      <div class="bgsearch">
+                          <input type="text" name="s" id="s" value="" /> 
+                          <input type="submit" class="searchbutton" value="" />
+                      </div>
+                    </form>
+                   
+                    <div class="clear"></div>
+                </section>
+                <div class="clear"></div>
+            </header>
+            </div>
+        </div>
+        <!-- END HEADER -->
+
+        <!-- BEFORE CONTENT -->
+        <div id="outerbeforecontent">
+        	<div class="container">
+                <section id="beforecontent" class="twelve columns">
+                    <h1 class="pagetitle">Comprar</h1>
+                    <div class="clear"></div>
+                </section>
+            </div>
+        </div>
+        <!-- END BEFORE CONTENT -->
+        
+        <!-- MAIN CONTENT -->
+        <div id="outermain">
+        	<div class="container">
+        	<section id="maincontent" class="twelve columns checkout">
+            	<div class="alert">¿Ya est&aacute;s registrado? <a href="login.html">Has clic aqu&iacute; para ingresar</a></div>
+            	<div class="six columns alpha">
+					<h4>Dirección de facturaci&oacute;n</h4>
+					<div class="three columns alpha">
+						<label for="billing_first_name" class="">Nombre<span class="required">*</span></label>
+						<input type="text" class="input-text" name="billing_first_name" id="billing_first_name" placeholder="Nombre" value="" />
+					</div>
+					<div class="three columns omega">
+						<label for="billing_last_name" class="">Apellido<span class="required">*</span></label>
+						<input type="text" class="input-text" name="billing_last_name" id="billing_last_name" placeholder="Apellido" value="" />
+					</div>
+					<div class="clear"></div>
+					<div class="three columns alpha">
+						<label for="billing_phone" class="">Tel&eacute;fono<span class="required">*</span></label>
+						<input type="text" class="input-text" name="billing_phone" id="billing_phone" placeholder="Tel&eacute;fono" value="" />
+					</div>
+					<div class="three columns omega">
+						<label for="billing_email" class="">Email<span class="required">*</span></label>
+						<input type="text" class="input-text" name="billing_email" id="billing_email" placeholder="tu@tudominio.com" value="" />
+					</div>
+					<div class="clear"></div>
+					<div class="three columns alpha">
+						<label for="billing_country" class="">Pa&iacute;s<span class="required">*</span></label>
+						<select name="billing_country" id="billing_country" class="country_to_state" rel="billing_state">
+							<option value="">Seleccione un pa&iacute;s&hellip;</option>
+							<option value="AF" >Afghanistan</option><option value="AX" >Aland Islands</option>
+							<option value="AL" >Albania</option>
+							<option value="DZ" >Algeria</option><option value="AS" >American Samoa</option><option value="AD" >Andorra</option><option value="AO" >Angola</option><option value="AI" >Anguilla</option><option value="AQ" >Antarctica</option><option value="AG" >Antigua and Barbuda</option><option value="AR" >Argentina</option><option value="AM" >Armenia</option><option value="AW" >Aruba</option><option value="AU" >Australia</option><option value="AT" >Austria</option><option value="AZ" >Azerbaijan</option><option value="BS" >Bahamas</option><option value="BH" >Bahrain</option><option value="BD" >Bangladesh</option><option value="BB" >Barbados</option><option value="BY" >Belarus</option><option value="BE" >Belgium</option><option value="BZ" >Belize</option><option value="BJ" >Benin</option><option value="BM" >Bermuda</option><option value="BT" >Bhutan</option><option value="BO" >Bolivia</option><option value="BA" >Bosnia and Herzegovina</option><option value="BW" >Botswana</option><option value="BV" >Bouvet Island</option><option value="BR" >Brazil</option><option value="IO" >British Indian Ocean Territory</option><option value="VG" >British Virgin Islands</option><option value="BN" >Brunei</option><option value="BG" >Bulgaria</option><option value="BF" >Burkina Faso</option><option value="BI" >Burundi</option><option value="KH" >Cambodia</option><option value="CM" >Cameroon</option><option value="CA" >Canada</option><option value="CV" >Cape Verde</option><option value="KY" >Cayman Islands</option><option value="CF" >Central African Republic</option><option value="TD" >Chad</option><option value="CL" >Chile</option><option value="CN" >China</option><option value="CX" >Christmas Island</option><option value="CC" >Cocos (Keeling) Islands</option><option value="CO" >Colombia</option><option value="KM" >Comoros</option><option value="CG" >Congo (Brazzaville)</option><option value="CD" >Congo (Kinshasa)</option><option value="CK" >Cook Islands</option><option value="CR" >Costa Rica</option><option value="HR" >Croatia</option><option value="CU" >Cuba</option><option value="CY" >Cyprus</option><option value="CZ" >Czech Republic</option><option value="DK" >Denmark</option><option value="DJ" >Djibouti</option><option value="DM" >Dominica</option><option value="DO" >Dominican Republic</option><option value="EC" >Ecuador</option><option value="EG" >Egypt</option><option value="SV" >El Salvador</option><option value="GQ" >Equatorial Guinea</option><option value="ER" >Eritrea</option><option value="EE" >Estonia</option><option value="ET" >Ethiopia</option><option value="FK" >Falkland Islands</option><option value="FO" >Faroe Islands</option><option value="FJ" >Fiji</option><option value="FI" >Finland</option><option value="FR" >France</option><option value="GF" >French Guiana</option><option value="PF" >French Polynesia</option><option value="TF" >French Southern Territories</option><option value="GA" >Gabon</option><option value="GM" >Gambia</option><option value="GE" >Georgia</option><option value="DE" >Germany</option><option value="GH" >Ghana</option><option value="GI" >Gibraltar</option><option value="GR" >Greece</option><option value="GL" >Greenland</option><option value="GD" >Grenada</option><option value="GP" >Guadeloupe</option><option value="GU" >Guam</option><option value="GT" >Guatemala</option><option value="GG" >Guernsey</option><option value="GN" >Guinea</option><option value="GW" >Guinea-Bissau</option><option value="GY" >Guyana</option><option value="HT" >Haiti</option><option value="HN" >Honduras</option><option value="HK" >Hong Kong S.A.R., China</option><option value="HU" >Hungary</option><option value="IS" >Iceland</option><option value="IN" >India</option><option value="ID" >Indonesia</option><option value="IR" >Iran</option><option value="IQ" >Iraq</option><option value="IE" >Ireland</option><option value="IM" >Isle of Man</option><option value="IL" >Israel</option><option value="IT" >Italy</option><option value="CI" >Ivory Coast</option><option value="JM" >Jamaica</option><option value="JP" >Japan</option><option value="JE" >Jersey</option><option value="JO" >Jordan</option><option value="KZ" >Kazakhstan</option><option value="KE" >Kenya</option><option value="KI" >Kiribati</option><option value="KW" >Kuwait</option><option value="KG" >Kyrgyzstan</option><option value="LA" >Laos</option><option value="LV" >Latvia</option><option value="LB" >Lebanon</option><option value="LS" >Lesotho</option><option value="LR" >Liberia</option><option value="LY" >Libya</option><option value="LI" >Liechtenstein</option><option value="LT" >Lithuania</option><option value="LU" >Luxembourg</option><option value="MO" >Macao S.A.R., China</option><option value="MK" >Macedonia</option><option value="MG" >Madagascar</option><option value="MW" >Malawi</option><option value="MY" >Malaysia</option><option value="MV" >Maldives</option><option value="ML" >Mali</option><option value="MT" >Malta</option><option value="MH" >Marshall Islands</option><option value="MQ" >Martinique</option><option value="MR" >Mauritania</option><option value="MU" >Mauritius</option><option value="YT" >Mayotte</option><option value="MX" >Mexico</option><option value="FM" >Micronesia</option><option value="MD" >Moldova</option><option value="MC" >Monaco</option><option value="MN" >Mongolia</option><option value="ME" >Montenegro</option><option value="MS" >Montserrat</option><option value="MA" >Morocco</option><option value="MZ" >Mozambique</option><option value="MM" >Myanmar</option><option value="NA" >Namibia</option><option value="NR" >Nauru</option><option value="NP" >Nepal</option><option value="NL" >Netherlands</option><option value="AN" >Netherlands Antilles</option><option value="NC" >New Caledonia</option><option value="NZ" >New Zealand</option><option value="NI" >Nicaragua</option><option value="NE" >Niger</option><option value="NG" >Nigeria</option><option value="NU" >Niue</option><option value="NF" >Norfolk Island</option><option value="KP" >North Korea</option><option value="MP" >Northern Mariana Islands</option><option value="NO" >Norway</option><option value="OM" >Oman</option><option value="PK" >Pakistan</option><option value="PW" >Palau</option><option value="PS" >Palestinian Territory</option><option value="PA" >Panama</option><option value="PG" >Papua New Guinea</option><option value="PY" >Paraguay</option><option value="PE" >Peru</option><option value="PH" >Philippines</option><option value="PN" >Pitcairn</option><option value="PL" >Poland</option><option value="PT" >Portugal</option><option value="PR" >Puerto Rico</option><option value="QA" >Qatar</option><option value="RE" >Reunion</option><option value="RO" >Romania</option><option value="RU" >Russia</option><option value="RW" >Rwanda</option><option value="BL" >Saint Barthélemy</option><option value="SH" >Saint Helena</option><option value="KN" >Saint Kitts and Nevis</option><option value="LC" >Saint Lucia</option><option value="MF" >Saint Martin (French part)</option><option value="PM" >Saint Pierre and Miquelon</option><option value="VC" >Saint Vincent and the Grenadines</option><option value="WS" >Samoa</option><option value="SM" >San Marino</option><option value="ST" >Sao Tome and Principe</option><option value="SA" >Saudi Arabia</option><option value="SN" >Senegal</option><option value="RS" >Serbia</option><option value="SC" >Seychelles</option><option value="SL" >Sierra Leone</option><option value="SG" >Singapore</option><option value="SK" >Slovakia</option><option value="SI" >Slovenia</option><option value="SB" >Solomon Islands</option><option value="SO" >Somalia</option><option value="ZA" >South Africa</option><option value="GS" >South Georgia/Sandwich Islands</option><option value="KR" >South Korea</option><option value="ES" >Spain</option><option value="LK" >Sri Lanka</option><option value="SD" >Sudan</option><option value="SR" >Suriname</option><option value="SJ" >Svalbard and Jan Mayen</option><option value="SZ" >Swaziland</option><option value="SE" >Sweden</option><option value="CH" >Switzerland</option><option value="SY" >Syria</option><option value="TW" >Taiwan</option><option value="TJ" >Tajikistan</option><option value="TZ" >Tanzania</option><option value="TH" >Thailand</option><option value="TL" >Timor-Leste</option><option value="TG" >Togo</option><option value="TK" >Tokelau</option><option value="TO" >Tonga</option><option value="TT" >Trinidad and Tobago</option><option value="TN" >Tunisia</option><option value="TR" >Turkey</option><option value="TM" >Turkmenistan</option><option value="TC" >Turks and Caicos Islands</option><option value="TV" >Tuvalu</option><option value="VI" >U.S. Virgin Islands</option><option value="USAF" >US Armed Forces</option><option value="UM" >US Minor Outlying Islands</option><option value="UG" >Uganda</option><option value="UA" >Ukraine</option><option value="AE" >United Arab Emirates</option><option value="GB" >United Kingdom</option><option value="US" >United States</option><option value="UY" >Uruguay</option><option value="UZ" >Uzbekistan</option><option value="VU" >Vanuatu</option><option value="VA" >Vatican</option><option value="VE" >Venezuela</option><option value="VN" >Vietnam</option><option value="WF" >Wallis and Futuna</option><option value="EH" >Western Sahara</option><option value="YE" >Yemen</option><option value="ZM" >Zambia</option><option value="ZW" >Zimbabwe</option></select>
+					</div>
+					<div class="three columns omega">
+						<label for="billing_state" class="">Departamento/Estado<span class="required">*</span></label><input type="text" class="input-text" name="billing_state" id="billing_state" placeholder="Departamento/Estado" value="" />
+					</div>
+					<div class="clear"></div>
+					<div class="three columns alpha">
+						<label for="billing_city" class="">Ciudad<span class="required">*</span></label>
+						<input type="text" class="input-text" name="billing_city" id="billing_city" placeholder="Ciudad" value="" />
+					</div>
+					<div class="three columns omega">
+						<label for="billing_postcode" class="">C&oacute;digo Postal<span class="required">*</span></label>
+						<input type="text" class="input-text" name="billing_postcode" id="billing_postcode" placeholder="C&oacute;digo Postal" value="" />
+					</div>
+					<div class="clear"></div>
+					<div class="six columns alpha">
+						<label for="billing_address_1" class="">Direcci&oacute;n<span class="required">*</span></label>
+						<input type="text" class="input-text" name="billing_address_1" id="billing_address_1" placeholder="Direcci&oacute;n" value="" />
+					</div>
+					
+					<div class="clear"></div>	
+                </div>
+                
+                <div class="six columns omega">
+					<div class="form-row" id="shiptobilling">
+                    <input class="input-checkbox"  checked='checked' type="checkbox" name="shiptobilling" value="1" /> 
+                    <label for="shiptobilling" class="checkbox">&iquest;Enviar a la misma direcci&oacute;n?</label>
+                    </div>
+                    <h4>Direcci&oacute;n de env&iacute;o</h4>
+					<div class="three columns alpha">
+						<label for="billing_country" class="">Pa&iacute;s<span class="required">*</span></label>
+						<select name="billing_country" id="billing_country" class="country_to_state" rel="billing_state">
+							<option value="">Seleccione un pa&iacute;s&hellip;</option>
+							<option value="AF" >Afghanistan</option><option value="AX" >Aland Islands</option>
+							<option value="AL" >Albania</option>
+							<option value="DZ" >Algeria</option><option value="AS" >American Samoa</option><option value="AD" >Andorra</option><option value="AO" >Angola</option><option value="AI" >Anguilla</option><option value="AQ" >Antarctica</option><option value="AG" >Antigua and Barbuda</option><option value="AR" >Argentina</option><option value="AM" >Armenia</option><option value="AW" >Aruba</option><option value="AU" >Australia</option><option value="AT" >Austria</option><option value="AZ" >Azerbaijan</option><option value="BS" >Bahamas</option><option value="BH" >Bahrain</option><option value="BD" >Bangladesh</option><option value="BB" >Barbados</option><option value="BY" >Belarus</option><option value="BE" >Belgium</option><option value="BZ" >Belize</option><option value="BJ" >Benin</option><option value="BM" >Bermuda</option><option value="BT" >Bhutan</option><option value="BO" >Bolivia</option><option value="BA" >Bosnia and Herzegovina</option><option value="BW" >Botswana</option><option value="BV" >Bouvet Island</option><option value="BR" >Brazil</option><option value="IO" >British Indian Ocean Territory</option><option value="VG" >British Virgin Islands</option><option value="BN" >Brunei</option><option value="BG" >Bulgaria</option><option value="BF" >Burkina Faso</option><option value="BI" >Burundi</option><option value="KH" >Cambodia</option><option value="CM" >Cameroon</option><option value="CA" >Canada</option><option value="CV" >Cape Verde</option><option value="KY" >Cayman Islands</option><option value="CF" >Central African Republic</option><option value="TD" >Chad</option><option value="CL" >Chile</option><option value="CN" >China</option><option value="CX" >Christmas Island</option><option value="CC" >Cocos (Keeling) Islands</option><option value="CO" >Colombia</option><option value="KM" >Comoros</option><option value="CG" >Congo (Brazzaville)</option><option value="CD" >Congo (Kinshasa)</option><option value="CK" >Cook Islands</option><option value="CR" >Costa Rica</option><option value="HR" >Croatia</option><option value="CU" >Cuba</option><option value="CY" >Cyprus</option><option value="CZ" >Czech Republic</option><option value="DK" >Denmark</option><option value="DJ" >Djibouti</option><option value="DM" >Dominica</option><option value="DO" >Dominican Republic</option><option value="EC" >Ecuador</option><option value="EG" >Egypt</option><option value="SV" >El Salvador</option><option value="GQ" >Equatorial Guinea</option><option value="ER" >Eritrea</option><option value="EE" >Estonia</option><option value="ET" >Ethiopia</option><option value="FK" >Falkland Islands</option><option value="FO" >Faroe Islands</option><option value="FJ" >Fiji</option><option value="FI" >Finland</option><option value="FR" >France</option><option value="GF" >French Guiana</option><option value="PF" >French Polynesia</option><option value="TF" >French Southern Territories</option><option value="GA" >Gabon</option><option value="GM" >Gambia</option><option value="GE" >Georgia</option><option value="DE" >Germany</option><option value="GH" >Ghana</option><option value="GI" >Gibraltar</option><option value="GR" >Greece</option><option value="GL" >Greenland</option><option value="GD" >Grenada</option><option value="GP" >Guadeloupe</option><option value="GU" >Guam</option><option value="GT" >Guatemala</option><option value="GG" >Guernsey</option><option value="GN" >Guinea</option><option value="GW" >Guinea-Bissau</option><option value="GY" >Guyana</option><option value="HT" >Haiti</option><option value="HN" >Honduras</option><option value="HK" >Hong Kong S.A.R., China</option><option value="HU" >Hungary</option><option value="IS" >Iceland</option><option value="IN" >India</option><option value="ID" >Indonesia</option><option value="IR" >Iran</option><option value="IQ" >Iraq</option><option value="IE" >Ireland</option><option value="IM" >Isle of Man</option><option value="IL" >Israel</option><option value="IT" >Italy</option><option value="CI" >Ivory Coast</option><option value="JM" >Jamaica</option><option value="JP" >Japan</option><option value="JE" >Jersey</option><option value="JO" >Jordan</option><option value="KZ" >Kazakhstan</option><option value="KE" >Kenya</option><option value="KI" >Kiribati</option><option value="KW" >Kuwait</option><option value="KG" >Kyrgyzstan</option><option value="LA" >Laos</option><option value="LV" >Latvia</option><option value="LB" >Lebanon</option><option value="LS" >Lesotho</option><option value="LR" >Liberia</option><option value="LY" >Libya</option><option value="LI" >Liechtenstein</option><option value="LT" >Lithuania</option><option value="LU" >Luxembourg</option><option value="MO" >Macao S.A.R., China</option><option value="MK" >Macedonia</option><option value="MG" >Madagascar</option><option value="MW" >Malawi</option><option value="MY" >Malaysia</option><option value="MV" >Maldives</option><option value="ML" >Mali</option><option value="MT" >Malta</option><option value="MH" >Marshall Islands</option><option value="MQ" >Martinique</option><option value="MR" >Mauritania</option><option value="MU" >Mauritius</option><option value="YT" >Mayotte</option><option value="MX" >Mexico</option><option value="FM" >Micronesia</option><option value="MD" >Moldova</option><option value="MC" >Monaco</option><option value="MN" >Mongolia</option><option value="ME" >Montenegro</option><option value="MS" >Montserrat</option><option value="MA" >Morocco</option><option value="MZ" >Mozambique</option><option value="MM" >Myanmar</option><option value="NA" >Namibia</option><option value="NR" >Nauru</option><option value="NP" >Nepal</option><option value="NL" >Netherlands</option><option value="AN" >Netherlands Antilles</option><option value="NC" >New Caledonia</option><option value="NZ" >New Zealand</option><option value="NI" >Nicaragua</option><option value="NE" >Niger</option><option value="NG" >Nigeria</option><option value="NU" >Niue</option><option value="NF" >Norfolk Island</option><option value="KP" >North Korea</option><option value="MP" >Northern Mariana Islands</option><option value="NO" >Norway</option><option value="OM" >Oman</option><option value="PK" >Pakistan</option><option value="PW" >Palau</option><option value="PS" >Palestinian Territory</option><option value="PA" >Panama</option><option value="PG" >Papua New Guinea</option><option value="PY" >Paraguay</option><option value="PE" >Peru</option><option value="PH" >Philippines</option><option value="PN" >Pitcairn</option><option value="PL" >Poland</option><option value="PT" >Portugal</option><option value="PR" >Puerto Rico</option><option value="QA" >Qatar</option><option value="RE" >Reunion</option><option value="RO" >Romania</option><option value="RU" >Russia</option><option value="RW" >Rwanda</option><option value="BL" >Saint Barthélemy</option><option value="SH" >Saint Helena</option><option value="KN" >Saint Kitts and Nevis</option><option value="LC" >Saint Lucia</option><option value="MF" >Saint Martin (French part)</option><option value="PM" >Saint Pierre and Miquelon</option><option value="VC" >Saint Vincent and the Grenadines</option><option value="WS" >Samoa</option><option value="SM" >San Marino</option><option value="ST" >Sao Tome and Principe</option><option value="SA" >Saudi Arabia</option><option value="SN" >Senegal</option><option value="RS" >Serbia</option><option value="SC" >Seychelles</option><option value="SL" >Sierra Leone</option><option value="SG" >Singapore</option><option value="SK" >Slovakia</option><option value="SI" >Slovenia</option><option value="SB" >Solomon Islands</option><option value="SO" >Somalia</option><option value="ZA" >South Africa</option><option value="GS" >South Georgia/Sandwich Islands</option><option value="KR" >South Korea</option><option value="ES" >Spain</option><option value="LK" >Sri Lanka</option><option value="SD" >Sudan</option><option value="SR" >Suriname</option><option value="SJ" >Svalbard and Jan Mayen</option><option value="SZ" >Swaziland</option><option value="SE" >Sweden</option><option value="CH" >Switzerland</option><option value="SY" >Syria</option><option value="TW" >Taiwan</option><option value="TJ" >Tajikistan</option><option value="TZ" >Tanzania</option><option value="TH" >Thailand</option><option value="TL" >Timor-Leste</option><option value="TG" >Togo</option><option value="TK" >Tokelau</option><option value="TO" >Tonga</option><option value="TT" >Trinidad and Tobago</option><option value="TN" >Tunisia</option><option value="TR" >Turkey</option><option value="TM" >Turkmenistan</option><option value="TC" >Turks and Caicos Islands</option><option value="TV" >Tuvalu</option><option value="VI" >U.S. Virgin Islands</option><option value="USAF" >US Armed Forces</option><option value="UM" >US Minor Outlying Islands</option><option value="UG" >Uganda</option><option value="UA" >Ukraine</option><option value="AE" >United Arab Emirates</option><option value="GB" >United Kingdom</option><option value="US" >United States</option><option value="UY" >Uruguay</option><option value="UZ" >Uzbekistan</option><option value="VU" >Vanuatu</option><option value="VA" >Vatican</option><option value="VE" >Venezuela</option><option value="VN" >Vietnam</option><option value="WF" >Wallis and Futuna</option><option value="EH" >Western Sahara</option><option value="YE" >Yemen</option><option value="ZM" >Zambia</option><option value="ZW" >Zimbabwe</option></select>
+					</div>
+					<div class="three columns omega">
+						<label for="billing_state" class="">Departamento/Estado<span class="required">*</span></label><input type="text" class="input-text" name="billing_state" id="billing_state" placeholder="Departamento/Estado" value="" />
+					</div>
+					<div class="clear"></div>
+					<div class="three columns alpha">
+						<label for="billing_city" class="">Ciudad<span class="required">*</span></label>
+						<input type="text" class="input-text" name="billing_city" id="billing_city" placeholder="Ciudad" value="" />
+					</div>
+					<div class="three columns omega">
+						<label for="billing_postcode" class="">C&oacute;digo Postal<span class="required">*</span></label>
+						<input type="text" class="input-text" name="billing_postcode" id="billing_postcode" placeholder="C&oacute;digo Postal" value="" />
+					</div>
+					<div class="clear"></div>
+					<div class="six columns alpha">
+						<label for="billing_address_1" class="">Direcci&oacute;n<span class="required">*</span></label>
+						<input type="text" class="input-text" name="billing_address_1" id="billing_address_1" placeholder="Direcci&oacute;n" value="" />
+					</div>
+					
+					<div class="clear"></div>	
+                </div>
+                <div class="clear"></div><br><br>
+
+                <h4>Tu orden</h4>	
+                    <table class="checkout_cart">
+                        <thead>
+                            <tr>
+                                <th class="product">Producto</th>
+                                <th class="desc">Descripción</th>
+                                <th class="ref">Ref.</th>
+                                <th class="available">Disponibilidad</th>
+                                <th class="unit-price">P. Unitario</th>
+                                <th class="qty">Cantidad</th>
+                                <th class="total">Total</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                            <td class="product"><img src="images/content/product/img-cart1.jpg" alt="" /></td>
+                            <td class="desc">Overall de Oso</td>
+                            <td class="ref">-</td>
+                            <td class="available">Disponible</td>
+                            <td class="unit-price">S/. 120.00 </td>
+                            <td> 1 </td>
+                            <td>S/. 120.00 </td>
+                        </tr>
+						<tr>
+                            <td class="product"><img src="images/content/product/img-cart2.jpg" alt="" /></td>
+                            <td class="desc">Conjunto Paloma Rosada</td>
+                            <td class="ref">-</td>
+                            <td class="available">Disponible</td>
+                            <td class="unit-price">S/. 140.00 </td>
+                            <td> 1 </td>
+                            <td>S/. 140.00 </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                
+                    <table class="checkout_totals">
+                      <tbody>
+                          <tr class="cart-subtotal">
+                              <th>Sub Total:</th>
+                              <td>S/. 260.00</td>
+                          </tr>      
+                          <tr class="shipping">
+                              <th>Gastos Envío:</th>
+                              <td>S/. 5.00</td>
+                          </tr>        
+                          <tr class="total">
+                              <th>Total:</th>
+                              <td>S/. 265.00</td>
+                          </tr>
+                      </tbody>
+                    </table> 
+                	<br>
+
+                    <div id="payment">
+                        <ul class="payment_methods">
+                            <li>
+                                <input type="radio" id="payment_method_bacs" class="input-radio" name="payment_method" value="bacs" checked="checked" />
+                                <label for="payment_method_bacs">Tarjeta de Cr&eacute;dito <img src="images/visa.gif" alt="Visa" /><img src="images/mastercard.gif" alt="Visa" /><img src="images/american_express.jpg" alt="Visa" /></label> 
+                            </li>
+                            <li>
+                                <input type="radio" id="payment_method_cheque" class="input-radio" name="payment_method" value="cheque"  />
+                                <label for="payment_method_cheque">SafetyPay<img src="images/safety.jpg" alt="PayPal" /></label> 					
+                            </li>
+                            <li>
+                            <input type="radio" id="payment_method_paypal" class="input-radio" name="payment_method" value="paypal"  />
+                            <label for="payment_method_paypal">PayPal <img src="images/paypal.gif" alt="PayPal" /></label> 					
+                            </li>
+                        </ul>
+                    
+                        <div class="form-row">		
+                            <a href="#" class="button">Realizar el pago</a>
+                        </div>
+                        <div class="clear"></div>
+                    </div>
+
+                
+                <div class="clear"></div><!-- clear float --> 
+            </section>
+            </div>
+        </div>
+        <!-- END MAIN CONTENT -->
+        
+		<!-- FOOTER SIDEBAR -->
+        <div id="outerfootersidebar">
+        	<div class="container">
+                <div id="footersidebarcontainer" class="twelve columns"> 
+                    <footer id="footersidebar">
+                    <div id="footcol1"  class="three columns alpha">
+                    	<ul>
+                          	<li class="widget-container">
+
+							<img src="images/logo.png" alt="">
+							<p style="padding-left:15px;">
+								&copy;2013 Babynel Per&uacute;.
+								<br/>
+								Todos los derechos reservados.
+							</p>
+                            </li>
+                    	</ul>
+                    </div>
+                    <div id="footcol2"  class="three columns">
+                        <ul>
+                          	<li class="widget-container">
+                            	<h2 class="widget-title">Formas de Pago</h2>
+                            	<div class="gallery-pic">
+                                	<a href="#"><img src="images/visa.gif" alt=""></a>
+                                    <a href="#"><img src="images/mastercard.gif" alt=""></a>
+                                    <a href="#"><img src="images/american_express.jpg" alt=""></a>
+                                    <a href="#"><img src="images/safety.jpg" alt="" class="nomargin"></a>
+                                    <a href="#"><img src="images/paypal.gif" alt=""></a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div id="footcol3"  class="three columns">
+                        <ul>
+                            <li class="widget-container">
+                                <h2 class="widget-title">Servicio al cliente</h2>
+                                <div style="padding-left:20px;">
+									<ul class="listaFooterServicio">
+										<li><a href="#">Preguntas frecuentes</a></li>
+										<li><a href="contact.html">Contacto</a></li>
+										<li><a href="#">Condiciones de entrega</a></li>
+										<li><a href="#">Formas de pago</a></li>
+										<li><a href="#">Pol&iacute;tica de garant&iacute;as y devoluciones</a></li>
+										<li><a href="#">Aviso de privacidad</a></li>
+									</ul>
+                                </div>
+                                <div class="clear"></div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div id="footcol4"  class="three columns omega">
+                        <ul>
+                            <li class="widget-container">
+                                <h2 class="widget-title">Libro de reclamaciones</h2>
+                                <p>Ley N&deg;29571 C&oacute;digo de Protecci&oacute;n y Defensa del Consumidor. <a href="#">M&aacute;s informaci&oacute;n aqu&iacute;</a></p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="clear"></div>
+                    </footer>
+                    
+                </div>
+            </div>
+        </div>
+        <!-- END FOOTER SIDEBAR -->
+        
+        <!-- FOOTER -->
+        <div id="outerfooter">
+        	<div class="container">
+        	<div id="footercontainer" class="twelve columns">
+				<footer id="footer">&copy;2013 Babynel Per&uacute;.</footer>
+                <ul class="sn">
+                    <li><a href="#" title="Google Plus" target="_blank"><span class="icon-img" style="background:url(images/social/gplus.png)"></span></a></li>
+                    <li><a href="#" title="Facebook" target="_blank"><span class="icon-img" style="background:url(images/social/facebook.png)"></span></a></li>
+                    <li><a href="#" title="Twitter" target="_blank"><span class="icon-img" style="background:url(images/social/twitter.png)"></span></a></li>
+                </ul>
+            </div>
+            </div>
+        </div>
+        <!-- END FOOTER -->
+        
+	</div><!-- end bodychild -->
+</div><!-- end outercontainer -->
+<script type="text/javascript" src="js/jquery-1.6.4.min.js"></script>
+<script type="text/javascript" src="js/hoverIntent.js"></script> 
+<script type="text/javascript" src="js/superfish.js"></script> 
+<script type="text/javascript" src="js/supersubs.js"></script>
+<script type="text/javascript" src="js/tinynav.min.js"></script>
+<script type="text/javascript" src="js/custom.js"></script>
+</body>
+</html>

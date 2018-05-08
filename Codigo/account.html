@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
+<head>
+	<meta charset="utf-8" />
+	<title>Babynel</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+	<link rel="stylesheet" href="styles/skeleton.css" />
+    <link rel="stylesheet" href="styles/style.css" />
+    <link rel="stylesheet" href="styles/inner.css" />
+    <link rel="stylesheet" href="styles/color.css" />
+	<link rel="stylesheet" href="styles/layout.css" />
+	<link href='http://fonts.googleapis.com/css?family=Droid+Sans:400,700' rel='stylesheet' type='text/css'>
+	<!--[if lt IE 9]>
+		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+    <link id="layoutcss" href="styles/fixed-layout.css" rel="stylesheet" type="text/css" />
+	<link rel="shortcut icon" href="images/favicon.ico" />
+	<link rel="apple-touch-icon" href="images/apple-touch-icon.png" />
+	<link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png" />
+	<link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png" />
+</head>
+
+<body>
+<div id="bodychild">
+	<div id="outercontainer">
+    
+        <!-- HEADER -->
+        <div id="outerheader">
+        	<div class="container">
+			<header id="top" class="twelve columns">
+            	<div id="logo"  class="three columns alpha"><a href="index.html"><img src="images/logo.png" alt=""></a></div>
+                <div id="headerright" class="six columns omega">
+					<div id="chart">
+                    	<a href="#" id="shop-bag"></a>
+                        <ul class="shop-box">
+                        	<li>
+                                <img src="images/content/product/small.jpg" alt="" class="alignright imgborder" />
+                                <h2>Overall de Oso</h2>
+                                <div class="price">1 x S/. 120</div>
+                            </li>
+							<li>
+                                <img src="images/content/product/small2.jpg" alt="" class="alignright imgborder" />
+                                <h2>Conjunto Paloma Rosada</h2>
+                                <div class="price">1 x S/. 140</div>
+                            </li>
+                            <li>
+                                <div class="total">Subtotal: S/. 260</div>
+                                <a href="cart.html" class="button">Ver Carrito</a>
+								<a href="checkout.html" class="button">Comprar</a>
+                                <div class="clear"></div>
+                            </li>
+                        </ul>
+                    	
+                    	<h6>Carrito de Compra</h6>
+                        <p>Usted tiene 2 items en el carrito de compras</p>
+                    </div>
+					<ul id="user-nav">
+                    	<li class="current"><a href="account.html">Mi Cuenta</a></li>
+                        <li><a href="login.html">Mi Lista</a></li>
+                        <li><a href="cart.html">Mi Carrito</a></li>
+                        <li><a href="checkout.html">Comprar</a></li>
+                        <li><a href="login.html">Login</a></li>
+                    </ul>
+                </div>
+
+                <section id="navigation" class="twelve columns">
+                    <nav id="nav-wrap">
+                        <ul id="topnav" class="sf-menu">
+                            <li><a href="index.html">Inicio</a></li>
+							<li><a href="products.html">Productos</a>
+                            	<ul>
+                                	<li><a href="products.html">Pijamas</a></li>
+                                    <li><a href="products.html">Polos</a></li>
+                                    <li><a href="products.html">Overall</a></li>
+                                    <li><a href="products.html">Ni&ntilde;os</a></li>
+                                    <li><a href="products.html">Ni&ntilde;as</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="about.html">Nosotros</a></li>
+                            <li><a href="contact.html">Contacto</a></li>
+                        </ul><!-- topnav -->
+                    </nav><!-- nav -->	
+                    
+                    <form method="get" id="searchform" action="#">
+                      <div class="bgsearch">
+                          <input type="text" name="s" id="s" value="" /> 
+                          <input type="submit" class="searchbutton" value="" />
+                      </div>
+                    </form>
+                   
+                    <div class="clear"></div>
+                </section>
+                <div class="clear"></div>
+            </header>
+            </div>
+        </div>
+        <!-- END HEADER -->
+
+        <!-- BEFORE CONTENT -->
+        <div id="outerbeforecontent">
+        	<div class="container">
+                <section id="beforecontent" class="twelve columns">
+                    <h1 class="pagetitle">Mi cuenta</h1>
+                    <div class="clear"></div>
+                </section>
+            </div>
+        </div>
+        <!-- END BEFORE CONTENT -->
+        
+        <!-- MAIN CONTENT -->
+        <div id="outermain">
+        	<div class="container">
+			<section id="maincontent" class="twelve columns">
+				
+                <p>Hola, <strong>admin</strong>. Desde tu cuenta puedes visualizar tus &uacute;ltimas &oacute;rdenes, administrar tus env&iacute;os y direcciones de facturaci&oacute;n y
+                <a href="#">cambiar tu contrase&ntilde;a</a>.</p>
+                <h3>Ultimas &Oacute;rdenes</h3>
+                <table class="my_account_orders">
+                    <thead>
+                        <tr>
+                            <th class="no-order"><span class="nobr">#</span></th>
+                            <th><span class="nobr">Fecha</span></th>
+                            <th class="ship"><span class="nobr">Lugar de env&iacute;o</span></th>
+                            <th><span class="nobr">Total</span></th>
+                            <th colspan="2" class="status"><span class="nobr">Estado</span></th>
+                        </tr>
+                    </thead>
+                    
+                    <tbody>
+                        <tr class="order">
+                            <td>9621</td>
+                            <td><time>05/07/2013</time></td>
+                            <td class="ship"><address>Calle Los Antares 320, Torre B, Of 505, Santiago de Surco, Lima, Per&uacute;</address></td>
+                            <td>$194.00</td>
+                            <td>en espera</td>
+                            <td><a href="#" class="button">Ver</a></td>
+                        </tr>
+                        <tr class="order">
+                            <td>7424</td>
+                            <td><time>13/01/2013</time></td>
+                            <td class="ship"><address>Calle Los Antares 320, Torre B, Of 505, Santiago de Surco, Lima, Per&uacute;</address></td>
+                            <td>$257.00</td>
+                            <td>entregado</td>
+                            <td><a href="#" class="button">Ver</a></td>
+                        </tr>
+                        <tr class="order">
+                            <td>2362</td>
+                            <td><time>30/07/2012</time></td>
+                            <td class="ship"><address>Calle Los Antares 320, Torre B, Of 505, Santiago de Surco, Lima, Per&uacute;</address></td>
+                            <td>$253.00</td>
+                            <td>entregado</td>
+                            <td><a href="#" class="button">Ver</a></td>
+                        </tr>
+                    </tbody>
+                </table>
+                <br>
+
+                <h3>Mis direcciones</h3>	
+                <p>Las siguientes direcciones van a ser usadas al momento de comprar en esta p&aacute;gina.</p>
+                
+                <div class=" one_half firstcols">
+					<header class="title2">				
+                        <h4>Direcci&oacute;n de facturaci&oacute;n</h4>
+                        <a href="#" class="edit">Editar</a>	
+                    </header>
+                    <div class="clear"></div>
+					<address>
+						Nelson Berrospid<br>
+ 						Calle Los Antares 320, Torre B, Of 505, Santiago de Surco<br>
+						Lima, Per&uacute;			
+                    </address>
+                </div>
+                <div class="one_half lastcols">
+					<header class="title2">				
+                        <h4>Shipping Address</h4>
+                        <a href="#" class="edit">Editar</a>	
+                    </header>
+                    <div class="clear"></div>
+					<address>
+						Nelson Berrospid<br>
+ 						Calle Los Antares 320, Torre B, Of 505, Santiago de Surco<br>
+						Lima, Per&uacute;			
+                    </address>
+                </div>
+                      
+                <div class="clear"></div><!-- clear float --> 
+            </section>
+            </div>
+        </div>
+        <!-- END MAIN CONTENT -->
+        
+		<!-- FOOTER SIDEBAR -->
+        <div id="outerfootersidebar">
+        	<div class="container">
+                <div id="footersidebarcontainer" class="twelve columns"> 
+                    <footer id="footersidebar">
+                    <div id="footcol1"  class="three columns alpha">
+                    	<ul>
+                          	<li class="widget-container">
+
+							<img src="images/logo.png" alt="">
+							<p style="padding-left:15px;">
+								&copy;2013 Babynel Per&uacute;.
+								<br/>
+								Todos los derechos reservados.
+							</p>
+                            </li>
+                    	</ul>
+                    </div>
+                    <div id="footcol2"  class="three columns">
+                        <ul>
+                          	<li class="widget-container">
+                            	<h2 class="widget-title">Formas de Pago</h2>
+                            	<div class="gallery-pic">
+                                	<a href="#"><img src="images/visa.gif" alt=""></a>
+                                    <a href="#"><img src="images/mastercard.gif" alt=""></a>
+                                    <a href="#"><img src="images/american_express.jpg" alt=""></a>
+                                    <a href="#"><img src="images/safety.jpg" alt="" class="nomargin"></a>
+                                    <a href="#"><img src="images/paypal.gif" alt=""></a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div id="footcol3"  class="three columns">
+                        <ul>
+                            <li class="widget-container">
+                                <h2 class="widget-title">Servicio al cliente</h2>
+                                <div style="padding-left:20px;">
+									<ul class="listaFooterServicio">
+										<li><a href="#">Preguntas frecuentes</a></li>
+										<li><a href="contact.html">Contacto</a></li>
+										<li><a href="#">Condiciones de entrega</a></li>
+										<li><a href="#">Formas de pago</a></li>
+										<li><a href="#">Pol&iacute;tica de garant&iacute;as y devoluciones</a></li>
+										<li><a href="#">Aviso de privacidad</a></li>
+									</ul>
+                                </div>
+                                <div class="clear"></div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div id="footcol4"  class="three columns omega">
+                        <ul>
+                            <li class="widget-container">
+                                <h2 class="widget-title">Libro de reclamaciones</h2>
+                                <p>Ley N&deg;29571 C&oacute;digo de Protecci&oacute;n y Defensa del Consumidor. <a href="#">M&aacute;s informaci&oacute;n aqu&iacute;</a></p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="clear"></div>
+                    </footer>
+                    
+                </div>
+            </div>
+        </div>
+        <!-- END FOOTER SIDEBAR -->
+        
+        <!-- FOOTER -->
+        <div id="outerfooter">
+        	<div class="container">
+        	<div id="footercontainer" class="twelve columns">
+				<footer id="footer">&copy;2013 Babynel Per&uacute;.</footer>
+                <ul class="sn">
+                    <li><a href="#" title="Google Plus" target="_blank"><span class="icon-img" style="background:url(images/social/gplus.png)"></span></a></li>
+                    <li><a href="#" title="Facebook" target="_blank"><span class="icon-img" style="background:url(images/social/facebook.png)"></span></a></li>
+                    <li><a href="#" title="Twitter" target="_blank"><span class="icon-img" style="background:url(images/social/twitter.png)"></span></a></li>
+                </ul>
+            </div>
+            </div>
+        </div>
+        <!-- END FOOTER -->
+        
+	</div><!-- end bodychild -->
+</div><!-- end outercontainer -->
+<script type="text/javascript" src="js/jquery-1.6.4.min.js"></script>
+<script type="text/javascript" src="js/hoverIntent.js"></script> 
+<script type="text/javascript" src="js/superfish.js"></script> 
+<script type="text/javascript" src="js/supersubs.js"></script>
+<script type="text/javascript" src="js/tinynav.min.js"></script>
+<script type="text/javascript" src="js/custom.js"></script>
+</body>
+</html>
